@@ -1,0 +1,31 @@
+/* Grid container */
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two columns */
+    gap: 20px; /* Gap between columns */
+  }
+  
+  /* Left section for customer details */
+  .left-section {
+    border: 2px solid #000; /* Border for visualization */
+    padding: 20px; /* Padding inside the square */
+    width: 300px; /* Fixed width for the square */
+    height: 300px; /* Fixed height for the square */
+  }
+  
+  /* Right section for scooters list */
+  .right-section {
+    border: 2px solid #000; /* Border for visualization */
+    padding: 20px; /* Padding inside the section */
+  }
+  
+  /* Individual scooter item */
+  .scooter-item {
+    border: 1px solid #000; /* Border for visualization */
+    padding: 10px; /* Padding inside the item */
+    margin-bottom: 10px; /* Margin between scooter items */
+  }
+  
+  .button-container {
+    margin-top: 20px;
+  }

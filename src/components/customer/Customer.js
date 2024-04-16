@@ -1,12 +1,12 @@
 import React from 'react'
 
-const Customer = ({customer}) => {
+const Customer = ({name, email, phone}) => {
   return (
     <div>
         <h2>Customer Details:</h2>
-        <p>Name: {customer.name}</p>
-        <p>Email: {customer.email}</p>
-        <p>Phone: {customer.phone}</p>
+        <p>Name: {name}</p>
+        <p>Email: {email}</p>
+        <p>Phone: {phone}</p>
       
     </div>
   )

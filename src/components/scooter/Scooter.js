@@ -1,11 +1,12 @@
 import React from 'react'
 
-const Scooter = ({scooter}) => {
+const Scooter = ({ model, chargePercent}) => {
   return (
-    <div>
+    <div className='scooter-item'>
         <h2>Scooter Details:</h2>
-        <p>Model: {scooter.model}</p>
-        <p>Charge Percent: {scooter.charge_perct}</p>
+        <p>Model: {model}</p>
+        <p>Charge Percent: {chargePercent}</p>
+        
     </div>
   )
 }
