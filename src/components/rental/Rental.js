@@ -1,6 +1,6 @@
 import React from 'react';
 import Customer from '../customer/Customer';
-import Scooter from './Scooter';
+import Scooter from '../scooter/Scooter';
 
 const Rental = ({rental}) => {
   return (
