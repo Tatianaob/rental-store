@@ -1,5 +1,5 @@
 import React from 'react'
-import Rental from '../src/components/rental';
+import Rental from './components/rental/Rental';
 
 const App = () => {
     const rentalData = {
